@@ -1,0 +1,90 @@
+body{
+    background-color: whitesmoke;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 8px;
+    width: 300px;
+    height: 400px;
+    margin : 10% auto;
+    box-shadow: 1px 1px 2px rgb(0, 0, 90);
+
+}
+.choixContain{
+    margin-top: 10px;
+
+}
+
+.btnChoix{
+    border-radius: 5px;
+    margin-left: 10px;
+    padding: 3px 15px;
+}
+
+.btnChoix:hover{
+    background-color: #c6c7ff;
+    color: whitesmoke;
+    transition: 0.4s;
+
+}
+
+.formContain{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+
+}
+
+.formContain input:focus{
+    background-color: #c6c7ff;
+}
+
+.formContain select:focus{
+    background-color: #c6c7ff;
+}
+
+.btnAcheter{
+    margin : 45px;
+}
+
+.btnAcheter:hover{
+    background-color: #c6c7ff;
+    color: whitesmoke;
+    transition: 0.4s;
+
+}
+
+.ticketContain{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2.5px dashed black;
+    border-radius: 5px;
+    width: 300px;
+    height: 470px;
+    margin : 5% auto;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+    line-height: 37px;
+    background-color: rgb(233, 230, 230);
+    box-shadow: 2px 2px 3px #646464;
+}
+
+.ticketContain h3{
+    font-size : 25px;
+    margin : 20px 0px;
+}
+
+.imgCinema{
+    width: 60px;
+}
+
+.ciseaux{
+    position: relative;
+    top:-9px;
+    left:-100px;
+}
